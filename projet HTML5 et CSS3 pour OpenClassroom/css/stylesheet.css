@@ -1,0 +1,199 @@
+body {
+	background-color: #B0C4DE;
+	font-family: 'lobster', cursive;
+}
+
+header {
+	text-align: center;
+	background-image: url(../photos/icone.png);
+	background-position: center;
+	background-size: 300px;
+	background-repeat: no-repeat;
+	padding: 40px;
+}
+
+main {
+
+	padding: 20px;
+}
+
+
+
+/* Style navigation */
+
+nav {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+nav a {
+	text-align: center;
+}
+
+/* Style titre */
+
+h1 {
+	font-weight: bold;
+	font-size: 2.5em;
+	color: red;
+	text-decoration: underline fuchsia 2px;
+}
+
+
+h2 {
+	color: #191970;
+	text-decoration: underline;
+	text-align: left;
+
+}
+
+/* Style textes et liens */
+p {
+	color: #483D8B;
+	text-align: left;
+}
+
+ul {
+	color: #483D8B;
+}
+
+a {
+	color: #8B008B;
+}
+
+a:hover {
+	color: green;
+}
+
+
+a:active {
+	text-decoration-color: blue;
+}
+
+a:focus,
+
+	{
+	background-color: #008080;
+	color: black;
+	outline-color: red;
+}
+
+/* Class */
+
+.bouton {
+	border: solid 2px blueviolet;
+	background-color: white;
+	margin: 1px;
+	;
+	padding: 1px;
+}
+
+.gras {
+	font-weight: bold;
+}
+
+.italique {
+	font-style: italic;
+}
+
+.jasiri {
+	color: #BA55D3;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.photo {
+	text-align: center;
+
+}
+
+.image {
+	border: 7px groove fuchsia;
+	border-radius: 20px;
+}
+
+.image:hover {
+	opacity: 0.8;
+}
+
+.bleusouligne {
+	color: blue;
+	text-decoration: underline red 2px;
+
+}
+
+.introduction {
+	color: #8A2BE2;
+	font-weight: bold;
+	text-align: center;
+	size: 2.2em
+}
+
+
+
+.chapitre {
+	text-decoration: underline 2px black;
+	color: blue
+}
+
+.danger {
+	font-weight: bold;
+	text-decoration: underline 3px red;
+	color: red;
+}
+
+.vert {
+	background-color: greenyellow;
+}
+
+
+/* Tableaux */
+
+table {
+	border-collapse: collapse;
+	color: #191970;
+
+}
+
+td,
+th,
+caption {
+	border: solid 1.5px blue;
+	background-color: gainsboro;
+	padding: 3px;
+}
+
+
+fieldset {
+	background-color: aquamarine;
+	border-radius: 5px;
+	color: black;
+
+}
+
+legend {
+	background-color: aliceblue;
+	border-radius: 5px;
+	color: #191970;
+
+}
+
+label {
+	text-decoration: underline solid 1px blueviolet;
+}
+
+/* Ouverture style responsive */
+@media screen and (max-width: 600px) {
+	img {
+		display: none;
+	}
+
+	p,
+	.jasiri {
+		color: black;
+		text-align: left;
+	}
+
+}

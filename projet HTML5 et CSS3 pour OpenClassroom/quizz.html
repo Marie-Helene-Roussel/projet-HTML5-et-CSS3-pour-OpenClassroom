@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Quizz sur le furet </title>
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1> Quizz sur le furet</h1>
+    <nav class="navigue">
+      <a class="bouton" href="index.html">retour à l'index: </a>
+    </nav>
+
+
+  </header>
+  <div class="photo">
+    <img class="image" src="photos/jasirimuseau.jpg" alt="photo jasiri qui montre son petit museau" />
+
+  </div>
+
+  <main>
+    <p>
+      Vous êtes prêt pour le super Quizz?
+      Alors le voici!!
+    </p>
+    <form class="vert">
+      <fieldset>
+        <legend>Première question </legend>
+        <p>
+          Le furet est un?
+          <input type="radio" name="Première" value="carnivore" id="carnivore"> <label for="carnivore">Un
+            carnivore</label>
+          <input type="radio" name="Première" value="herbivore" id="herbivore"> <label for="herbivore">un
+            herbivore</label>
+          <input type="radio" name="Première" value="omnivore" id="omnivore"> <label for="omnivore">un omnivore</label>
+          <input type="radio" name="Première" value="insectivore" id="insectivore"> <label for="insectivore"> un
+            insectivore</label>
+        </p>
+        <legend>deuxième question </legend>
+        <p>
+          Le furet dort?
+          <input type="radio" name="deuxième" value="1" id="1"> <label for="1">1 heure</label>
+          <input type="radio" name="deuxième" value="2" id="2"> <label for="2">2 heures</label>
+          <input type="radio" name="deuxième" value="15" id="15"> <label for="15">15 heures</label>
+          <input type="radio" name="deuxième" value="18" id="18"> <label for="18">18 heures</label>
+        </p>
+        <p>
+          <legend> Troisième question </legend>
+          Comment s'appelle la petite furette que j'ai présenté sur le site?
+          <label for="nom"> son nom :</label>
+          <input type="text" name="nom" id="nom" placeholder="Ex. : petit indice, ça commence par un j" size="40"
+            maxlength="30">
+        </p>
+
+        </p>
+      </fieldset>
+      <input class="bouton" type="submit" value="Envoyer">
+    </form>
+    <p class="photo">
+      <img class="image" src="photos/jasirisoleil.jpg" alt="photo jasiri au couché du soleil" />
+
+    </p>
+  </main>
+
+  <footer>
+    <fieldset>
+      <legend>Comment trouvez vous notre site?</legend>
+      <p class="bleusouligne">Si vous souhaitez mettre un commentaire: </p>
+      <form method="get" action="">
+        <p>
+          <label for="commentaire">placez votre commentaire ici</label><br>
+          <textarea name="commentaire" id="commentaire"></textarea>
+          <br />
+          <input class="bouton" type="submit" value="Envoyer">
+        </p>
+      </form>
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>Souhaitez-vous nous contacter? </legend>
+      <p class="bleusouligne"> Pour nous contacter c'est ici:</p>
+      <form method="get" action="">
+        <p>
+          <label for="prenom">Votre prénom :</label>
+          <input type="text" name="prenom" id="prenom" placeholder="Ex. : Jasiri" size="30" maxlength="20">
+        </p>
+        <p>
+          <label for="nom">Votre nom: :</label>
+          <input type="text" name="nom" id="nom" placeholder="Ex. : Dupond" size="30" maxlength="20">
+        </p>
+        <p>
+          <label for="email"> votre email:</label>
+          <input type="email" name="email" id="email" placeholder="Ex. : jasiri@gmail.com" size="50" maxlength="45"
+            required>
+        </p>
+        <p>
+          <label for="telephone">votre téléphone: </label>
+          <input type="tel" name="telephone" id="telephone" placeholder="Ex. : 0460545656" size="30" maxlength="20">
+        </p>
+        <p>
+          <label for="votre message">votre message</label>
+          <textarea name="votre message" id="votre message"></textarea>
+        </p>
+        <input class="bouton" type="submit" value="Envoyer">
+    </fieldset>
+    </form>
+
+    <p class="bleusouligne"> Merci de votre visite! </p>
+  </footer>
+</body>
+
+</html>

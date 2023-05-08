@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>tout savoir sur le furet</title>
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <!-- Il s'agit de l'index de mon site qui contiendra la présentation, les boutons de navigation et le formulaire de contact.            -->
+</head>
+
+<body>
+
+
+  <header>
+    <!-- Le titre de ma page est en catégorie h1 pour permettre de distinguer l'importance du titre
+         l'indicateur titreindex est présent pour mettre en forme le texte du titre h1 dans le CSS, header en plus de représenté l'entête du site permet la 
+         mise en forme de l'image en font derrière le titre.  -->
+    <h1> Le furet </h1>
+    <nav class="navigue">
+      <!-- il s'agit du menu principal pour la navigation des visiteurs il est relié à chacune des pages du site et se présente sous forme de boutons. sur la partie CSS, les boutons ont un intervalle de 1px pour éviter un côté trop compact     -->
+      <a class="bouton" href="presentation.html">Présentation du furet: </a>
+      <a class="bouton" href="quizz.html">Quizz sur le furet: </a>
+    </nav>
+  </header>
+ 
+  <main>
+     <!--Photo de Jasiri centrer, avec un encadrement arrondi pour donner de la douceur au site et le rendre plus accueillant, le tout grâce à la class image pour la mise en forme
+        l'image est bien entendu intégré à une div, les images disparaissent en dessous de 600px de taille d'écran-->
+ 
+    <div class="photo">
+      <img class="image" src="../projet HTML5 et CSS3 pour OpenClassroom/photos/jasiri_gros_plan.jpg" alt="photo de furette en gros plan"
+        title="photo d'une jolie furette en gros plan" />
+    </div>
+ 
+    <section>
+      <p class="introduction">
+
+        Bonjour et bienvenue sur ce site. </p>
+      <p class="bleu"> Nous allons parler des <span class="gras"> furets </span> pour vous en apprendre plus à leur
+        sujet. </p>
+      <p> Pour vous présenter les <span class="gras"> furets </span>, je vais être aidé de ma petite furette <span
+          class="jasiri">Jasiri </span> . <br />
+        <span class="jasiri">Jasiri</span> est une furette adorable, <span class="jasiri"> elle est mignonne et
+          gentille. </span> <br />
+        elle est l'assistante <span class="jasiri"> idéale </span> pour cette <span class="italique">pésentation
+        </span>💖 </p>
+    </section>
+ 
+    <section>
+      <p class="bleu"> Nous allons voir ensemble les chapitres suivant: </p>
+      <ol class="bleu">
+        <li> <a href="presentation.html">Présentation du <span class="souligne"> furet </span> : </a> </li>
+        <li> <a href="quizz.html">Quizz sur le <span class="souligne"> furet: </span> </a> </li>
+
+
+      </ol>
+    </section>
+    <!-- photo de Jasiri qui disparait aussi en dessous de 600px de taille d'écran pour améliorer le confort visuel sur les petits écrans. -->
+
+    <div class="photo">
+      <img class="image" src="photos/jasirifleurs.jpg" alt="Photo de jasiri dans les fleurs"
+        title="Jasiri est très mignonne" /> </div>
+    </div>
+  </main>
+  
+  <footer>
+    <fieldset>
+      <legend>Comment trouvez vous notre site?</legend>
+      <p class="bleusouligne">Si vous souhaitez mettre un commentaire: </p>
+      <form method="get" action="">
+        <p>
+          <label for="commentaire">placez votre commentaire ici</label><br>
+          <textarea name="commentaire" id="commentaire"></textarea>
+          <br />
+          <input class="bouton" type="submit" value="Envoyer">
+        </p>
+      </form>
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>Souhaitez-vous nous contacter? </legend>
+      <p class="bleusouligne"> Pour nous contacter c'est ici:</p>
+      <form method="get" action="">
+        <p>
+          <label for="prenom">Votre prénom :</label>
+          <input type="text" name="prenom" id="prenom" placeholder="Ex. : Jasiri" size="30" maxlength="20">
+        </p>
+        <p>
+          <label for="nom">Votre nom: :</label>
+          <input type="text" name="nom" id="nom" placeholder="Ex. : Dupond" size="30" maxlength="20">
+        </p>
+        <p>
+          <label for="email"> votre email:</label>
+          <input type="email" name="email" id="email" placeholder="Ex. : jasiri@gmail.com" size="50" maxlength="45"
+            required>
+        </p>
+        <p>
+          <label for="telephone">votre téléphone: </label>
+          <input type="tel" name="telephone" id="telephone" placeholder="Ex. : 0460545656" size="30" maxlength="20">
+        </p>
+        <p>
+          <label for="votre message">votre message</label>
+          <textarea name="votre message" id="votre message"></textarea>
+        </p>
+        <input class="bouton" type="submit" value="Envoyer">
+    </fieldset>
+    </form>
+
+    <p class="bleusouligne"> Merci de votre visite! </p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
